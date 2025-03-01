@@ -1,0 +1,6 @@
+ldap3
+tkinter
+logging
+json
+smtplib
+
