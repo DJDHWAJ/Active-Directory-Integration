@@ -121,10 +121,20 @@ To enhance security monitoring, integrate AD logs with a **SIEM (Security Inform
 
 ---
 
+## **References**
+- **[Microsoft AD Security Monitoring](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices)**
+- **[OWASP AD Security Guide](https://owasp.org/www-project-active-directory-security/)**
+- **[Microsoft Event ID Documentation](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-logon-events)**
+- **[Splunk Windows Event Log Monitoring](https://www.splunk.com/en_us/blog/tips-and-tricks/windows-security-logging-siem.html)**
+- **[Elastic SIEM for AD Security](https://www.elastic.co/security-labs/detecting-active-directory-attacks-with-elastic-security)**
+- **[MITRE ATT&CK - Credential Access](https://attack.mitre.org/tactics/TA0006/)**
+
+---
+
 ## **Conclusion**
 By implementing these detection methods, system administrators can effectively monitor **Active Directory security events**, detect **unauthorized access attempts**, and mitigate potential security risks. A combination of **event log monitoring, real-time alerting, and SIEM integration** ensures a proactive defense against cyber threats.
 
-🚀 **Next Steps:**
+**Next Steps:**
 - Automate detection rules using **PowerShell scripts**.
 - Implement **real-time notifications via Slack or Email**.
 - Conduct **regular penetration tests** to evaluate AD security.
